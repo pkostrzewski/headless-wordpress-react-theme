@@ -12,3 +12,7 @@ This project is a headless WordPress theme built with React as the frontend, all
 ## Active Development
 
 The project is currently under active development, with ongoing enhancements and new features being added regularly.
+
+## Screenshot
+
+![Project Screenshot](./frontend/screenshot.png)
