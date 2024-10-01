@@ -15,4 +15,4 @@ The project is currently under active development, with ongoing enhancements and
 
 ## Screenshot
 
-![Project Screenshot](./screenshot.png)
+![Project Screenshot](../frontend/screenshot.png)
