@@ -1,0 +1,15 @@
+/* CPT - SERVICES */
+.service-icon {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    gap: .6rem;
+}
+.column-service_icon {
+    width: 50px; /* Set a fixed width for the icon column */
+}
+.column-service_icon img {
+    max-width: 44px; /* Ensure the image stays within the width limit */
+    height: auto;
+}

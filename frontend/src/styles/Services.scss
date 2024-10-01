@@ -1,0 +1,35 @@
+section {
+    &.services {
+        .wrapper {
+            .all-services {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                gap: 30px;
+                .service-item {
+                    flex: 1 1 18%;
+                    min-width: 220px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 22px;
+                    background-color: rgb(246, 251, 255);
+                    border-radius: 16px;
+                    overflow: hidden;
+                    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+                    padding: 30px;
+                    flex-wrap: nowrap;
+                    .details {
+                        height: 100%;
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: nowrap;
+                        justify-content: flex-start;
+                        gap: 12px;
+                    }
+                }
+            }
+        }
+    }
+}

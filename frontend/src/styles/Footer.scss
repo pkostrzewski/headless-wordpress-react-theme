@@ -1,0 +1,14 @@
+footer {
+    background-color: $bg-component;
+    padding: 30px 0;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0; 
+    .wrapper {
+        p {
+            margin: 0;
+        }
+    }
+}

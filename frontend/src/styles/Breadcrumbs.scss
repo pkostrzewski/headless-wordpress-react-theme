@@ -1,0 +1,16 @@
+div.breadcrumbs {
+    color: #b5b5b5;
+    font-size: 13px;
+    padding: 35px 0 0;
+    a {
+        color: #b5b5b5;
+        font-size: 13px;
+        &:hover {
+            color: initial;
+        }
+    }
+    span {
+        color: #b5b5b5;
+        font-size: 13px;
+    }
+}

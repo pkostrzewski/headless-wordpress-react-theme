@@ -1,0 +1,39 @@
+section {
+    &.home-page {
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 18px;
+            .latest-posts {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                align-items: stretch;
+                gap: 30px;
+                .post {
+                    flex: 1 1 23%;
+                    min-width: 280px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    background-color: rgb(246, 251, 255);
+                    border-radius: 8px;
+                    overflow: hidden;
+                    box-shadow: 0 0px 8px rgba(0, 0, 0, 0.1);
+                    transition: .2s ease-in-out;
+                    &:hover {
+                        box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+                    }
+                    .details {
+                        padding: 20px;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                        gap: 12px;
+
+                    }
+                }
+            }
+        }
+    }
+}

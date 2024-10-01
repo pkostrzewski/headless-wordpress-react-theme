@@ -1,0 +1,59 @@
+// Headlines
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-weight: bold;
+    color: #222;  
+    line-height: normal;
+}
+h1 {
+    font-size: 1.8em;
+    color: $heading-color;
+    &.site-title {
+        font-weight: 900;
+    }
+}
+h2 {
+    font-size: 1.8em;
+    color: $heading-color;
+}
+h3 {
+    font-size: 1.25em; 
+    color: $heading-color;
+}
+h4 {
+    font-size: 1.05em; 
+    color: $heading-color;
+}
+h5 {
+    font-size: 1em;
+    color: $heading-color;
+}
+h6 {
+    font-size: .9em;
+    color: $heading-color;
+}
+  
+// Paragraphs
+p {
+  margin: 0 0 1em;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 1px;
+  line-height: 28px;
+}
+
+//Span
+span {
+  color: #555;
+}
+
+//Links
+a {
+  color: #004085; 
+  text-decoration: none; 
+
+  &:hover {
+    text-decoration: none; 
+    color: #0186ab; 
+  }
+}

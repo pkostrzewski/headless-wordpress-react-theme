@@ -1,0 +1,32 @@
+@import './styles/Variables';
+body {
+  background-color: $bg-body;
+  font-family: 'Trebuchet MS', sans-serif; 
+  line-height: 1.6; 
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  max-width: 1366px;
+  margin: 0 auto;
+  padding: 0 6vw;
+}
+div#root {
+  position: relative;
+  min-height: 100vh;
+}
+main {
+  padding: 70px 0; 
+  section {
+    padding: 70px 0;
+    .wrapper {
+      > h2 {
+        padding: 0 0 30px;
+      }
+    }
+  }
+}
+@import './styles/Header';
+@import './styles/Typography';
+@import './styles/Footer';
